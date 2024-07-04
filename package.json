@@ -2,7 +2,6 @@
   "name": "foodapp",
   "version": "1.0.0",
   "description": "its a swiggy like food ordering app",
-  
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -20,7 +19,8 @@
   "homepage": "https://github.com/Anushkasoni1803/FoodOrderingApp#readme",
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.0"
   },
   "devDependencies": {
     "parcel": "^2.12.0",

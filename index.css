@@ -1,15 +1,7 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid black;
-}
 .logo{
-    width: 120px;
-    
-}
-.logo{
-    width: 120px;
-    
+    width: 100px;
+    border-radius: 50%;
+    text-shadow: 2px 3px;
 }
 .nav-items > ul{
     display: flex;
@@ -19,10 +11,15 @@
     padding: 10px;
     margin: 10px;
 }
+
 .header{
     display: flex;
+    position:sticky;
+    width: 100%;
     justify-content: space-between;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 4px 8px 0 rgba(207, 135, 135, 0.2);
 }
 .nav-items > ul{
     display: flex;
@@ -39,7 +36,7 @@
     word-spacing: 0px;
     /* line-height:1px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    border-radius: 5%;
 }
 .shimmer-component{
     display: flex;
@@ -79,6 +76,7 @@
 .res-logo{
     height: 50%;
     width: 100%;
+    border-radius: 10%;
 }
 
 .search{
@@ -116,7 +114,90 @@
 }
 .login-btn:hover{
     color: orangered;
+    cursor: pointer;
 }
 .nav-items > ul > li:hover{
     color: orangered;
+}
+.nav-items > ul > li:visited{
+    color: orangered;
+}
+
+.kittyimg{
+    height: 300px;
+}
+.errorpage{
+    text-align: center;
+}
+a:hover{
+    color: orangered;
+    text-decoration: none;
+}
+a:visited, a:link {
+    text-decoration: none;
+    color: black;
+}
+.respage{
+    margin-top: 50px;
+}
+.resblock{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align:left;
+    width: 60%;
+    height: 200px;
+    border-radius: 25px;
+    margin-left: 260px;
+    padding-top: 2px;
+    padding-left: 15px;
+    position: relative;
+}
+.nameofres{
+    margin-left: 280px;
+}
+.offerblock{
+  overflow: hidden;
+  /* white-space: nowrap;
+  scroll-behavior: smooth; */
+  overflow-x:visible;
+  margin-left: 260px;
+  /* margin-block-end: 260px; */
+  padding-top: 10px;
+  display:inline-flex;
+  max-width: 780px;
+  height: 100px;
+}
+
+.offerblocktwo{
+    display: flex;
+    width: 160px;
+    padding: 10px;
+    min-width: 160px;
+  }
+.menu{
+    text-align: center;
+    color: rgb(230, 34, 66);
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menublock{
+    text-align: center;
+    display:grid;
+}
+.menus{
+    /* display: block; */
+    margin: 20px;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 140px;
+    border: 3px solid gray ;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 270px;
+    text-align: left;
+}
+.food-logo{
+    display: inline;
+    width: 130px;
+    height: 180px;
+    margin-left: 480px;
 }

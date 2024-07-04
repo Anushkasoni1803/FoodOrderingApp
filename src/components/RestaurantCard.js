@@ -7,7 +7,9 @@ const RestaurantCard =(props)=>{
     const{ deliveryTime } = resdata.info?.sla;
 
 
+
     return(
+       
         <div className="res-card" style={{ backgroundColor: "#f0f0f0" }} >
             <img className="res-logo"
             alt="food img" src={
@@ -21,6 +23,8 @@ const RestaurantCard =(props)=>{
             
 
         </div>
+        // </div>
+
     )
 }
 
